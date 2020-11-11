@@ -1,1 +1,241 @@
 /* You can add global styles to this file, and also import other style files */
+.header {
+    padding: 80px; 
+    text-align: center; 
+    background:url(https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    color: rgb(18, 18, 19); 
+  }
+  
+h1{
+      color: gold;
+      font-family: -apple-system;
+      font-style: oblique;
+      font: xx-large;
+      font-weight: bolder;
+
+  }
+h2{ 
+      color: rgb(7, 1, 1);
+      text-align: center;
+  }
+  
+h3{ 
+    color: rgb(61, 29, 8);
+    text-align: center;
+  }
+h4{ 
+    color: black;
+    text-align: center;
+}
+
+h5{ 
+    color: rgb(121, 158, 116);
+}
+  .navbar {
+    overflow: hidden; 
+    background-color: rgb(17, 47, 48);
+
+  }
+  
+ 
+  .navbar a {
+    
+    display: block;
+    color: white;
+    text-align: left; 
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  * {
+    box-sizing: border-box;
+  }
+ 
+  
+ 
+  footer {
+    padding: 20px;
+    text-align: center; 
+    
+    color: coral;
+  }
+ 
+  input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(143, 118, 118);
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: rgb(61, 29, 8);
+  }
+  
+  input[type=submit] {
+    background-color: #032b0486;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  .feedback {
+    border-radius: 5px;
+    background:url(https://images.unsplash.com/photo-1569597747709-6eb5a67f9113?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    padding: 20px;
+    
+  }
+  
+  
+  .col-A {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  
+  .col-B {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+body {
+    background:url(https://images.unsplash.com/photo-1569597747709-6eb5a67f9113?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    margin:0px;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: cover;
+}
+h4, h5, h6, a {
+    margin:0; padding:0;
+}
+.login {
+  margin:0 auto;
+  max-width:500px;
+  background-color: cornflowerblue;
+}
+
+/* .login-header h1 {
+   text-shadow: 0px 5px 15px #000; */
+
+.login-form {
+    border:.5px solid rgb(179, 11, 142);
+    background:#95a3af;
+    border-radius:10px;
+    box-shadow:0px 0px 10px #000;
+}
+.login-form h5 {
+    text-align:left;
+    margin-left:40px;
+    color:#fff;
+}
+.login-form {
+  box-sizing:border-box;
+  padding-top:15px;
+    padding-bottom:10%;
+  margin:5% auto;
+  text-align:center;
+}
+.login input[type="text"],
+.login input[type="password"] {
+  max-width:400px;
+    width: 80%;
+  line-height:3em;
+  font-family: 'Ubuntu', sans-serif;
+  margin:1em 2em;
+  border-radius:5px;
+  border:2px solid #f2f2f2;
+  outline:none;
+  padding-left:10px;
+}
+.login-form input[type="button"] {
+  height:30px;
+  width:100px;
+  background:#fff;
+  border:1px solid #f2f2f2;
+  border-radius:20px;
+  color: slategrey;
+  text-transform:uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  cursor:pointer;
+}
+.sign-up{
+  color:#f2f2f2;
+  margin-left:-70%;
+  cursor:pointer;
+  text-decoration:underline;
+}
+.no-access {
+  color:#1c0a85;
+  margin:20px 0px 20px -57%;
+  text-decoration:underline;
+  cursor:pointer;
+}
+.try-again {
+  text-align: center;
+  color:#1c0a85;
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+.formulae{
+  text-align:center;
+  box-sizing:border-box;
+  padding-top:15px;
+  padding-bottom:5%;
+  margin:5% auto;
+  border: 5px solid rgb(150, 8, 119);
+  border-radius:5px;
+  box-shadow:0px 0px 5px #000;
+}
+.calculator{
+    text-align:center;
+    box-sizing:border-box;
+    padding-top:15px;
+    padding-bottom:5%;
+    margin:5% auto;
+    border: 5px solid rgb(150, 8, 119);
+    background: url("https://thumbs.dreamstime.com/b/geometric-technology-d-vector-drawing-grayscale-technical-wall-wallpaper-dimensional-abstract-scheme-engine-engineering-85109044.jpg");
+    border-radius:5px;
+    box-shadow:0px 0px 5px #000;
+}
+
+.sign-up, .no-access {
+    margin:10px 0;
+    padding:10px;
+    width:50%;
+}
+
+.login-button {
+    margin-bottom:10px;
+  }
+
+.portfolio{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSP3KzsjnK5t0ld29bMN4xcFQ0o6WWQlIFPSg&usqp=CAU" );
+}
+
+/*Media Querie*/
+@media only screen and (min-width : 150px) and (max-width : 530px){
+  .login-form h5 {
+    text-align:center;
+    margin:0;
+  }
+}
+div{
+    display: inline-flexbox;
+    flex-direction: -right;
+    
+}
